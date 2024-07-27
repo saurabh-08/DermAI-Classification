@@ -20,7 +20,7 @@ This project uses the ISIC (International Skin Imaging Collaboration) dataset, w
 
 ### Install Required Packages
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Prepare the dataset
