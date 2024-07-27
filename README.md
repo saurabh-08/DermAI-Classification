@@ -29,5 +29,6 @@ Download the ISIC dataset and place the images in the ISIC-images directory.
 Ensure the metadata CSV file is named metadata.csv and placed in the root directory.
 
 ### Run the model
-
+   ```bash
 DermoscopySimCLR_FullPipeline.ipynb
+```
