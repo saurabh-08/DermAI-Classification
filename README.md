@@ -1,4 +1,4 @@
-## DermoscopySimCLR**
+## DermoscopySimCLR
 
 DermoscopySimCLR is a deep learning project focused on the classification of skin lesions using dermoscopy images. This repository utilizes the SimCLR (Simple Framework for Contrastive Learning of Visual Representations) model for feature extraction and classification of benign and malignant skin lesions. The project aims to leverage advanced techniques in data augmentation, contrastive learning, and transfer learning to improve the accuracy and robustness of skin lesion classification.
 
@@ -16,8 +16,18 @@ This project uses the ISIC (International Skin Imaging Collaboration) dataset, w
 
    ```bash
    conda env create -f env.yaml
+```
 
-### Environment Setup
-pip install -r requirements.txt
+### Install Required Packages
+```bash
+   pip install -r requirements.txt
+```
 
+### Prepare the dataset
 
+Download the ISIC dataset and place the images in the ISIC-images directory.
+Ensure the metadata CSV file is named metadata.csv and placed in the root directory.
+
+### Run the model
+
+DermoscopySimCLR_FullPipeline.ipynb
