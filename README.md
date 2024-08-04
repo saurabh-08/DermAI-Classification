@@ -33,3 +33,6 @@ Ensure the metadata CSV file is named metadata.csv and placed in the root direct
    ```bash
 DermoscopySimCLR_FullPipeline.ipynb
 ```
+
+### Research Paper
+For more details on the methodology and findings, please refer to our research paper: Self-Supervised Learning to Detect and Classify Skin Anomalies using Unlabelled Dermoscopy Images
